@@ -11,7 +11,7 @@ interface ResponseData {
   }
   
   interface ResponseVisualizerProps {
-    response: ResponseData; // Use the defined type here
+    response: ResponseData | null; // Use the defined type here
   }
 
 export default function ResponseVisualizer({ response }: ResponseVisualizerProps) {
